@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*password*.txt
+*secret*.txt
+*credentials*.txt
+
+# Supabase Local
+.branches/
+.temp/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Database GUI & Tools
+.dbeaver/
+*.sql.bak
+
+# Build / Transpiled outputs
+dist/
+build/
+.next/
+out/
+
+# Logs
+logs/
+*.log
